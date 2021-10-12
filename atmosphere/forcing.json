@@ -45,6 +45,15 @@
       "filename": "INPUT/RYF.tas.1990_1991.nc",
       "fieldname": "tas",
       "cname": "tair_ai"
+      "perturbations": [
+        {
+          "type": "separable",
+          "dimension": ["temporal", "spatial"],
+          "value": ["INPUT/RYF.tas.1990_1991_scaling.nc", "INPUT/RYF.tas.1990_1991_scalingPAC.nc"],
+          "calendar": "forcing",
+          "comment": ""
+        },
+      ]
     },
     {
       "filename": "INPUT/RYF.huss.1990_1991.nc",
