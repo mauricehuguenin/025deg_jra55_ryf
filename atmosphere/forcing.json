@@ -12,19 +12,12 @@
       "cname": "lwfld_ai",
       "perturbations": [
         {
-          "type": "offset",
-          "dimension": "temporal",
-          "value": "INPUT/RYF.rlds.1990_1991_scaling.nc",
-          "calendar": "experiment",
+          "type": "separable",
+          "dimension": ["temporal", "spatial"],
+          "value": ["INPUT/RYF.rlds.1990_1991_scaling.nc", "INPUT/RYF.rlds.1990_1991_scalingPAC.nc"],
+          "calendar": "forcing",
           "comment": ""
         },
-        {
-          "type": "offset",
-          "dimension": "spatial",
-          "value": "INPUT/RYF.rlds.1990_1991_scalingPAC.nc",
-          "calendar": "experiment",
-          "comment": ""
-        }
       ]
     },
     {
