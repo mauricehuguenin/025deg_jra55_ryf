@@ -15,13 +15,15 @@
           "type": "offset",
           "dimension": "temporal",
           "value": "INPUT/RYF.rlds.1990_1991_scaling.nc",
-          "calendar": "experiment"
+          "calendar": "experiment",
+          "comment": ""
         },
         {
           "type": "offset",
           "dimension": "spatial",
           "value": "INPUT/RYF.rlds.1990_1991_scalingPAC.nc",
-          "calendar": "experiment"
+          "calendar": "experiment",
+          "comment": ""
         }
       ]
     },
