@@ -44,7 +44,7 @@
     {
       "filename": "INPUT/RYF.tas.1990_1991.nc",
       "fieldname": "tas",
-      "cname": "tair_ai"
+      "cname": "tair_ai",
       "perturbations": [
         {
           "type": "separable",
