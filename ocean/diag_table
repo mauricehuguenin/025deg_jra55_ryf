@@ -31,6 +31,9 @@ ACCESS-OM2-025
 
 # monthly 3d fields
 
+"ocean-3d-temp-1-monthly-mean-ym%4yr%2mo", 1, "months", 1, "days", "time", 1, "years"
+"ocean_model", "temp", "temp", "ocean-3d-temp-1-monthly-mean-ym%4yr%2mo", "all", "average", "none", 2
+
 
 # monthly 3d squared fields
 

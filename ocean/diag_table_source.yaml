@@ -150,7 +150,7 @@ diag_table:
             #salt:
             #temp_xflux_adv:
             #temp_yflux_adv:
-            #temp:
+            temp:
             # tx_trans_gm:
             # tx_trans_nrho_submeso:
             # tx_trans_rho_gm:
