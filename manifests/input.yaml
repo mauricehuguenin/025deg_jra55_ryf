@@ -56,6 +56,11 @@ work/atmosphere/INPUT/RYF.rlds.1990_1991.nc:
   hashes:
     binhash: 9512836673a68507bed403ecd859ba38
     md5: 0ea83e107ec883c3f39a12b60ff50d8e
+work/atmosphere/INPUT/RYF.rlds.1990_1991_pattern.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.rlds.1990_1991_pattern.nc
+  hashes:
+    binhash: 8254ae2620185f3dad9d415e0e74bf18
+    md5: cbd8f72d36868ccc9ecf107a790b65dd
 work/atmosphere/INPUT/RYF.rlds.1990_1991_scaling.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.rlds.1990_1991_scaling.nc
   hashes:
@@ -76,16 +81,26 @@ work/atmosphere/INPUT/RYF.tas.1990_1991.nc:
   hashes:
     binhash: 8f3c6798cc92a1d0b6573eb44b2a4dd2
     md5: 06689885f4f2f726b95a2818ab78a20d
+work/atmosphere/INPUT/RYF.tas.1990_1991_pattern.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_pattern.nc
+  hashes:
+    binhash: 3ea840de3e3e2b5b526f7f0d0e0077dc
+    md5: 5fc1f315d8963b0a5e0c204b97e07b54
 work/atmosphere/INPUT/RYF.tas.1990_1991_scaling.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_scaling.nc
   hashes:
-    binhash: af98486542640fa5f038fe9b470f1cf4
+    binhash: 966760b2977824a5d36d09ed75786274
     md5: 0a33d7310cb16fa252f461c75cc0c8ec
 work/atmosphere/INPUT/RYF.tas.1990_1991_scalingPAC.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_scalingPAC.nc
   hashes:
-    binhash: 444416904164f921dd475e13bca7a5b3
+    binhash: c33cc4e419d5a849f04b67dea1ca3eee
     md5: 5fc1f315d8963b0a5e0c204b97e07b54
+work/atmosphere/INPUT/RYF.tas.1990_1991_time_series.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_time_series.nc
+  hashes:
+    binhash: 775043075e240588ec12d709836c8934
+    md5: 11265c3fedf13e6e616555ec0e489fae
 work/atmosphere/INPUT/RYF.uas.1990_1991.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-4/RYF.uas.1990_1991.nc
   hashes:
@@ -539,12 +554,12 @@ work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_tas_monthly_mean_1958-2020.nc:
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_taux_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_taux_monthly_mean_1958-2020.nc
   hashes:
-    binhash: 191dcde1c927d2ec2525f5974d7b1b24
+    binhash: bf8ce9b87e6f089571262a7c31ea102e
     md5: 8e3c941b7d46e421f9ad6e3a086709ba
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_tauy_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_tauy_monthly_mean_1958-2020.nc
   hashes:
-    binhash: 379ecb61a1d0507f7936479bd140154e
+    binhash: 24fc6ed3d79d441404d4f98cdc37d76e
     md5: 5c089646955c3c9c26680d3011445e9e
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_ts_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_ts_monthly_mean_1958-2020.nc
@@ -566,6 +581,42 @@ work/atmosphere/INPUT/rmp_jrar_to_cict_CONSERV.nc:
   hashes:
     binhash: 5c9dc38068da3431afd3aa342bebbbcc
     md5: 2e8cf1844fe7a1156ef47170a6eb5ef1
+work/ice/RESTART/grid.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/grid.nc
+  hashes:
+    binhash: ef32f5ea0beca45e4aaf2f4833b339d0
+    md5: 24920ffb6c0fea5f6ec1e590a5f46280
+work/ice/RESTART/i2o.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/i2o.nc
+  hashes:
+    binhash: 169a43590d8b0c812af3d993c4f65e8c
+    md5: ca16c9eef58814b9ff13fd5e8bd88a25
+work/ice/RESTART/kmt.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/kmt.nc
+  hashes:
+    binhash: 01227be8425456ad64f9973e5ffaccbd
+    md5: 576e78b474c37f61a6fb45c9f5692bc6
+work/ice/RESTART/monthly_sstsss.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/monthly_sstsss.nc
+  hashes:
+    binhash: 2fdf1798189b37092a239c9c947d9d26
+    md5: 598c7aa8a08fe3f48a621f781dd26331
+work/ice/RESTART/o2i.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/o2i.nc
+  hashes:
+    binhash: 29b684d1cc141deb8f4bc69a47c12801
+    md5: 5c695c6a91b4a2f64e653a5baa62c34a
+work/ice/RESTART/u_star.nc:
+  copy: true
+  fullpath: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg/u_star.nc
+  hashes:
+    binhash: d0496680b0c663575627c6b13cdde39a
+    md5: 4be7800aa8e310a6c7a9c3af1d50c7f0
 work/ocean/INPUT/chl.nc:
   fullpath: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg/chl.nc
   hashes:
