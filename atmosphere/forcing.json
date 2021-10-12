@@ -9,16 +9,7 @@
     {
       "filename": "INPUT/RYF.rlds.1990_1991.nc",
       "fieldname": "rlds",
-      "cname": "lwfld_ai",
-      "perturbations": [
-        {
-          "type": "separable",
-          "dimension": ["temporal", "spatial"],
-          "value": ["INPUT/RYF.rlds.1990_1991_time_series_test.nc", "INPUT/RYF.rlds.1990_1991_pattern_test.nc"],
-          "calendar": "forcing",
-          "comment": ""
-        },
-      ]
+      "cname": "lwfld_ai"
     },
     {
       "filename": "INPUT/RYF.prra.1990_1991.nc",
@@ -44,16 +35,7 @@
     {
       "filename": "INPUT/RYF.tas.1990_1991.nc",
       "fieldname": "tas",
-      "cname": "tair_ai",
-      "perturbations": [
-        {
-          "type": "separable",
-          "dimension": ["temporal", "spatial"],
-          "value": ["INPUT/RYF.tas.1990_1991_time_series_test.nc", "INPUT/RYF.tas.1990_1991_pattern_test.nc"],
-          "calendar": "forcing",
-          "comment": ""
-        },
-      ]
+      "cname": "tair_ai"
     },
     {
       "filename": "INPUT/RYF.huss.1990_1991.nc",
@@ -63,12 +45,30 @@
     {
       "filename": "INPUT/RYF.uas.1990_1991.nc",
       "fieldname": "uas",
-      "cname": "uwnd_ai"
+      "cname": "uwnd_ai",
+      "perturbations": [
+        {
+          "type": "separable",
+          "dimension": ["temporal", "spatial"],
+          "value": ["INPUT/RYF.uas.1990_1991_time_series_test.nc", "INPUT/RYF.uas.1990_1991_pattern_test.nc"],
+          "calendar": "forcing",
+          "comment": ""
+        },
+      ]
     },
     {
       "filename": "INPUT/RYF.vas.1990_1991.nc",
       "fieldname": "vas",
-      "cname": "vwnd_ai"
+      "cname": "vwnd_ai",
+      "perturbations": [
+        {
+          "type": "separable",
+          "dimension": ["temporal", "spatial"],
+          "value": ["INPUT/RYF.vas.1990_1991_time_series_test.nc", "INPUT/RYF.vas.1990_1991_pattern_test.nc"],
+          "calendar": "forcing",
+          "comment": ""
+        },
+      ]
     },
     {
       "filename": "INPUT/RYF.licalvf.1990_1991.nc",

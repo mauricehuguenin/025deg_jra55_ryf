@@ -56,11 +56,6 @@ work/atmosphere/INPUT/RYF.rlds.1990_1991.nc:
   hashes:
     binhash: 9512836673a68507bed403ecd859ba38
     md5: 0ea83e107ec883c3f39a12b60ff50d8e
-work/atmosphere/INPUT/RYF.rlds.1990_1991_pattern_test.nc:
-  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.rlds.1990_1991_pattern_test.nc
-  hashes:
-    binhash: add24627282341df6de00afd78aae76a
-    md5: 4a520e2d386cc9f70d94742f36d75d4e
 work/atmosphere/INPUT/RYF.rlds.1990_1991_scaling.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.rlds.1990_1991_scaling.nc
   hashes:
@@ -71,11 +66,6 @@ work/atmosphere/INPUT/RYF.rlds.1990_1991_scalingPAC.nc:
   hashes:
     binhash: 9d2e5ea7637a97015d2913ce8bb27f32
     md5: cbd8f72d36868ccc9ecf107a790b65dd
-work/atmosphere/INPUT/RYF.rlds.1990_1991_time_series_test.nc:
-  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.rlds.1990_1991_time_series_test.nc
-  hashes:
-    binhash: 36950a64646eb11ae0799c5915df68c6
-    md5: 9486cb027aa3db526f1b19fd5e549ae7
 work/atmosphere/INPUT/RYF.rsds.1990_1991.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-4/RYF.rsds.1990_1991.nc
   hashes:
@@ -86,11 +76,6 @@ work/atmosphere/INPUT/RYF.tas.1990_1991.nc:
   hashes:
     binhash: 8f3c6798cc92a1d0b6573eb44b2a4dd2
     md5: 06689885f4f2f726b95a2818ab78a20d
-work/atmosphere/INPUT/RYF.tas.1990_1991_pattern_test.nc:
-  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_pattern_test.nc
-  hashes:
-    binhash: d1017bc446433927edd9f07f749a3fe6
-    md5: d58f07b18aaf35ee4cc8e85e4dec95ee
 work/atmosphere/INPUT/RYF.tas.1990_1991_scaling.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_scaling.nc
   hashes:
@@ -101,21 +86,36 @@ work/atmosphere/INPUT/RYF.tas.1990_1991_scalingPAC.nc:
   hashes:
     binhash: c33cc4e419d5a849f04b67dea1ca3eee
     md5: 5fc1f315d8963b0a5e0c204b97e07b54
-work/atmosphere/INPUT/RYF.tas.1990_1991_time_series_test.nc:
-  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.tas.1990_1991_time_series_test.nc
-  hashes:
-    binhash: 14d348bce8578f48f7a29c1f8cc2e09c
-    md5: a029e2a0372e4d01c90d3ca443158e4f
 work/atmosphere/INPUT/RYF.uas.1990_1991.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-4/RYF.uas.1990_1991.nc
   hashes:
     binhash: 54ede2172bf85bc861bc64c296a03f8c
     md5: 107bf9480f55597655d2d283b6f6b4ff
+work/atmosphere/INPUT/RYF.uas.1990_1991_pattern_test.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.uas.1990_1991_pattern_test.nc
+  hashes:
+    binhash: 5ded747d262b58d013fd08da260828c5
+    md5: 8c73ad25449ecb5d8366927e0c5790a3
+work/atmosphere/INPUT/RYF.uas.1990_1991_time_series_test.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.uas.1990_1991_time_series_test.nc
+  hashes:
+    binhash: 9a0da26f59b03e524ceb2f41ada23c04
+    md5: a3d5ac08069f7c82b230b0bef53cc173
 work/atmosphere/INPUT/RYF.vas.1990_1991.nc:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-4/RYF.vas.1990_1991.nc
   hashes:
     binhash: 17224eecb745b6ce72604b41201c1fe7
     md5: 88dc8c70338bbc8f5efc48ed0009a99f
+work/atmosphere/INPUT/RYF.vas.1990_1991_pattern_test.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.vas.1990_1991_pattern_test.nc
+  hashes:
+    binhash: 30bde71c2ff032d9363a4f0c30167601
+    md5: ac165cb741589cd76bdaf8ee2cc72e6d
+work/atmosphere/INPUT/RYF.vas.1990_1991_time_series_test.nc:
+  fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/RYF.vas.1990_1991_time_series_test.nc
+  hashes:
+    binhash: 38181dd4a4891ac9d5a6df4199791461
+    md5: 51d0f7dd41b2661a53e8bec9c85a7675
 work/atmosphere/INPUT/make_rhuss/.git/HEAD:
   fullpath: /g/data/ik11/inputs/JRA-55/RYF/v1-4/make_rhuss/.git/HEAD
   hashes:
@@ -559,12 +559,12 @@ work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_tas_monthly_mean_1958-2020.nc:
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_taux_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_taux_monthly_mean_1958-2020.nc
   hashes:
-    binhash: 9b85c71ed7b3419e39d82ae8924369d8
+    binhash: 38f6be5d372af562c8e84d29d44a7c5e
     md5: 8e3c941b7d46e421f9ad6e3a086709ba
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_tauy_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_tauy_monthly_mean_1958-2020.nc
   hashes:
-    binhash: 1747deb07d03d76cae6d8cce01bea616
+    binhash: 929ab0f0774f78f7d22699b02f490783
     md5: 5c089646955c3c9c26680d3011445e9e
 work/atmosphere/INPUT/monthly_mean/JRA55-do-1-5-0_ts_monthly_mean_1958-2020.nc:
   fullpath: /g/data/e14/mv7494/JRA55-do-1-5-0/monthly_mean/JRA55-do-1-5-0_ts_monthly_mean_1958-2020.nc
