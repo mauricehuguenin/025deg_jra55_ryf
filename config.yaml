@@ -8,8 +8,8 @@
 # (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
 # shortpath: /scratch/v45
 
-queue: normal
-walltime: 5:00:00
+queue: express
+walltime: 0:30:00
 jobname: 025deg_jra55_ryf
 
 # Model configuration
@@ -23,6 +23,7 @@ submodels:
       input:
             - /g/data/ik11/inputs/access-om2/input_20201102/yatm_025deg
             - /g/data/ik11/inputs/JRA-55/RYF/v1-4
+            - /g/data/e14/mv7494/JRA55-do-1-5-0
       ncpus: 1
 
     - name: ocean

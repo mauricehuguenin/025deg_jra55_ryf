@@ -9,7 +9,21 @@
     {
       "filename": "INPUT/RYF.rlds.1990_1991.nc",
       "fieldname": "rlds",
-      "cname": "lwfld_ai"
+      "cname": "lwfld_ai",
+      "perturbations": [
+        {
+          "type": "offset",
+          "dimension": "temporal",
+          "value": "INPUT/RYF.rlds.1990_1991_scaling.nc",
+          "calendar": "experiment"
+        },
+        {
+          "type": "offset",
+          "dimension": "spatial",
+          "value": "INPUT/RYF.rlds.1990_1991_scalingPAC.nc",
+          "calendar": "experiment"
+        }
+      ]
     },
     {
       "filename": "INPUT/RYF.prra.1990_1991.nc",
@@ -35,12 +49,26 @@
     {
       "filename": "INPUT/RYF.tas.1990_1991.nc",
       "fieldname": "tas",
-      "cname": "tair_ai"
+      "cname": "tair_ai",
+      "perturbations": [
+        {
+          "type": "offset",
+          "dimension": "temporal",
+          "value": "INPUT/RYF.tas.1990_1991_scaling.nc",
+          "calendar": "experiment"
+        },
+        {
+          "type": "offset",
+          "dimension": "spatial",
+          "value": "INPUT/RYF.tas.1990_1991_scalingPAC.nc",
+          "calendar": "experiment"
+        }
+      ]
     },
     {
-      "filename": "INPUT/RYF.huss.1990_1991.nc",
-      "fieldname": "huss",
-      "cname": "qair_ai"
+      "filename": "INPUT/RYF.rhuss.1990_1991.nc",
+      "fieldname": "rhuss",
+      "cname": "relh_ai"
     },
     {
       "filename": "INPUT/RYF.uas.1990_1991.nc",
