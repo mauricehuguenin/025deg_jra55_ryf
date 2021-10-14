@@ -45,30 +45,30 @@
     {
       "filename": "INPUT/RYF.uas.1990_1991.nc",
       "fieldname": "uas",
-      "cname": "uwnd_ai",
-      "perturbations": [
-        {
-          "type": "separable",
-          "dimension": ["temporal", "spatial"],
-          "value": ["INPUT/RYF.uas.1990_1991_time_series_test.nc", "INPUT/RYF.uas.1990_1991_pattern_test.nc"],
-          "calendar": "forcing",
-          "comment": ""
-        },
-      ]
+      "cname": "uwnd_ai"
+#      "perturbations": [
+#        {
+#          "type": "separable",
+#          "dimension": ["temporal", "spatial"],
+#          "value": ["INPUT/RYF.uas.1990_1991_time_series_test.nc", "INPUT/RYF.uas.1990_1991_pattern_test.nc"],
+#          "calendar": "forcing",
+#          "comment": ""
+#        },
+#      ]
     },
     {
       "filename": "INPUT/RYF.vas.1990_1991.nc",
       "fieldname": "vas",
-      "cname": "vwnd_ai",
-      "perturbations": [
-        {
-          "type": "separable",
-          "dimension": ["temporal", "spatial"],
-          "value": ["INPUT/RYF.vas.1990_1991_time_series_test.nc", "INPUT/RYF.vas.1990_1991_pattern_test.nc"],
-          "calendar": "forcing",
-          "comment": ""
-        },
-      ]
+      "cname": "vwnd_ai"
+ #     "perturbations": [
+ #       {
+ #         "type": "separable",
+ #         "dimension": ["temporal", "spatial"],
+ #         "value": ["INPUT/RYF.vas.1990_1991_time_series_test.nc", "INPUT/RYF.vas.1990_1991_pattern_test.nc"],
+ #         "calendar": "forcing",
+ #         "comment": ""
+ #       },
+ #     ]
     },
     {
       "filename": "INPUT/RYF.licalvf.1990_1991.nc",
