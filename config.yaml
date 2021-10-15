@@ -8,33 +8,33 @@
 # (you may need to add the corresponding PBS -l storage flag in sync_data.sh)
 # shortpath: /scratch/v45
 
-queue: normal
-walltime: 5:00:00
+queue: express
+walltime: 0:30:00
 jobname: 025deg_jra55_ryf
 
 # Model configuration
 name: common
 model: access-om2
-input: /g/data/ik11/inputs/access-om2/input_20201102/common_025deg_jra55
+input: /g/data4/ik11/inputs/access-om2/input_rc-DELETE/common_025deg_jra55
 submodels:
     - name: atmosphere
       model: yatm
       exe: /g/data/ik11/inputs/access-om2/bin/yatm_a227a61.exe
       input:
-            - /g/data/ik11/inputs/access-om2/input_20201102/yatm_025deg
-            - /g/data/ik11/inputs/JRA-55/RYF/v1-4
+            - /g/data/ik11/inputs/access-om2/input_rc-DELETE/yatm_025deg
+            - /g/data1a/ua8/JRA55-do/RYF/v1-3
       ncpus: 1
 
     - name: ocean
       model: mom
       exe: /g/data/ik11/inputs/access-om2/bin/fms_ACCESS-OM_af3a94d_libaccessom2_a227a61.x
-      input: /g/data/ik11/inputs/access-om2/input_20201102/mom_025deg
+      input: /g/data/ik11/inputs/access-om2/input_rc-DELETE/mom_025deg
       ncpus: 1455
 
     - name: ice
       model: cice5
       exe: /g/data/ik11/inputs/access-om2/bin/cice_auscom_1440x1080_480p_2572851_libaccessom2_a227a61.exe
-      input: /g/data/ik11/inputs/access-om2/input_20201102/cice_025deg
+      input: /g/data/ik11/inputs/access-om2/input_rc-DELETE/cice_025deg
       ncpus: 361
 
 # Collation
@@ -52,7 +52,7 @@ runlog: true
 stacksize: unlimited
 restart_freq: 1  # use tidy_restarts.py instead
 mpirun: --mca io ompio --mca io_ompio_num_aggregators 1
-qsub_flags: -W umask=027
+#qsub_flags: -W umask=027
 env:
     UCX_LOG_LEVEL: 'error'
 # set number of cores per node (28 for normalbw, 48 for normal on gadi)
